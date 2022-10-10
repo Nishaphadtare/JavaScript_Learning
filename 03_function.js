@@ -35,3 +35,10 @@ function addition(arg1, arg2, arg3){
 }
 addition(200, 300, 600);
 addition("Sachin", "Ramesh", "Tendulkar");
+
+// function test(arg1) {
+//     console.log(arg1);
+//     return "Nisha"
+// }
+// var val = test(20,50,60);
+// console.log(val);
