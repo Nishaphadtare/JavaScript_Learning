@@ -89,34 +89,46 @@ var age = 18;
 var age = 20;
 var age = 17;
 var age = 40;
- 
-var EligibleVoteOrNot= prompt("enter your age");
+eligibleForVotingOrNot=false;
 
-
-if (age>=1){
-console.log("you are eligible for vote or Not");
+console.log("--18--");
+if (rating>= 4, eligibleForVotingOrNot==true){
+console.log("you are eligible For Vote");
 }
 
-console.log(18);
-var age = 20;
+if (age>=18){
+console.log("Eligible for voting");
+}else{
+    console.log("Not eligible for voting");
+}
+console.log("--20--");
 if(age>=20){
-    console.log("you are eligible for vote");
+    console.log("Eligible for voting");
 }else{
-    console.log("Not eligible for vote");
+    console.log("Not Eligible for voting");
+}
+console.log("--17--");
+
+if(age<=17){
+    console.log("Eligible for voting");
+}else{
+    console.log("Not eligible for voting");
 }
 
-console.log(17);
-var age = 17;
-if(age<=17%2==0){
-    console.log("you are eligible for vote");
+console.log("--40--");
+if(age>=40){
+    console.log("Eligible for voting");
 }else{
-    console.log("Not eligible for vote");
+    console.log("Not eligible for voting");
 }
 
-// console.log(40==0);
-// var age = 40;
-// if(age>=40){
-//     console.log("you are eligible for vote");
-// }else{
-//     console.log("Not eligible for vote");
-// }
+console.log("---------------------------- 3.---------------------------");
+var String = "JavaScript -ES6"
+var str = string.length;
+
+if (String.length>10) {
+console.log("more Than 10 character ");    
+}else{
+    console.log("not more than character ");
+}
+
