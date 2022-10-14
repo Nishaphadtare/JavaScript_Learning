@@ -25,4 +25,3 @@ switch (dayNumber) {
         console.log("Invalid input");
         break;
 }
-

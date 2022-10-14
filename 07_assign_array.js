@@ -45,7 +45,6 @@ console.log("=========================== Table 10 ==============================
 
 for (let index = 100; index < 10; index = index + 10) {
     console.log(index);
-
 }
 console.log("===============================================================");
 for (let index = 100; index >10; index--) {

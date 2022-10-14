@@ -21,8 +21,8 @@ for (let index = 0; index <= 10; index=index+2) { // index++   index = index+2
 //     console.log(index);  
 // }
 
-// //initilization ; condition; update
-// //initilization 1; condition index<=30; update index
+initilization ; condition; update
+initilization 1; condition index<=30; update index
 
 // for (let index = 1; index <=30; index=index+2) {
 //     console.log(index);    
