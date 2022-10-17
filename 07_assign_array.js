@@ -2,7 +2,7 @@ var incrementing = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 console.log(incrementing);
 
 var countIncrementing = 0;
-for (let index = 15; index > 5; index--) {
+for (let index = 15; index >= 5; index--) {
 
     console.log(index);
 }
@@ -41,12 +41,15 @@ console.log("=========================== Table 10 ==============================
 for (let index = 5; index <= 50; index = index + 5) {
     console.log(index);
 }
-console.log("=========================== Table 10 ====================================");
+// console.log("===============================================================");
+// var number =100;
+// var totalnum = number.count;
+// for (let index = 10; index < totalnum ; index++) {
+//    var num = number.count(10);
+//    if (index){
+//         console.log();
+//    }
+    
+// }
 
-for (let index = 100; index < 10; index = index + 10) {
-    console.log(index);
-}
-console.log("===============================================================");
-for (let index = 100; index >10; index--) {
-    console.log(index);  
- }
+  

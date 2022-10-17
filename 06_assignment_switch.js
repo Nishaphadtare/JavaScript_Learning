@@ -1,8 +1,8 @@
-var monthName = 4; 6; 7;
+var monthName = 1; 
 switch (monthName) {
     case 1:
         console.log("January");
-        break;
+        // break;
     case 2:
         console.log("February");
         break;
@@ -11,7 +11,7 @@ switch (monthName) {
         break;
     case 4:
         console.log("April");
-       // break;
+       break;
     case 5:
         console.log("May");
         break;
@@ -35,7 +35,7 @@ switch (monthName) {
         break;
     case 12:
         console.log("December");
-        //break;
+        break;
     default:
         console.log("invalid input");
         break;
