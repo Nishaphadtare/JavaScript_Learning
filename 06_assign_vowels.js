@@ -1,8 +1,31 @@
-// var vowels = "Good Morning IT Champ";
-//  vowels.includes(good Morning IT Champ);
-// if (vowels.includes(a)) {
-//     console.log("vowels");
+console.log(`Count the total number vowels using includes() for string → “Good Morning IT Champ”`);
+var myString ="Good Morning IT Champ"
+var vowelsLowerCase ="aeiou";
+var vowelsUpperCase ="AEIOU";
+var vowelsCount = 0;
+for (let index = 0; index < myString.length; index++) {
+   var char = myString.charAt(index)
+   var isLowerAvailable = vowelsLowerCase.includes(char);
+   var isUpperAvailable = vowelsUpperCase.includes(char);
+  if (isLowerAvailable || isUpperAvailable) {
+        vowelsCount = vowelsCount + 1;
+  }
+    
+}
+console.log(`Total Vowels Count: ${vowelsCount}`);
 
+// countVowels("Good Morning IT Champ");
+// console.log("============================");
+// function evenPositionedChars(myString){
+//     for (let index = 0; index < myString.length; index++) {
+    //    console.log(index%2==0);
+//        var chh = myString.charAt(index);
+//        if (index%2==0 && chh!=" ") {
+//           console.log(chh);
+//        }
+//        var chh = myString.charAt(index);
+        
+//     }
 // }
 
 console.log("-----------------------------------------");
@@ -56,60 +79,82 @@ for (let index = 0; index < givenString2.length; index++) {
 }
 
 console.log("-----------------------*Q.5- Even-str1*---------------------------");
-var givenString = "Hard work always pays back";
-var evenPositionedChars = givenString.length;
-for (let index = 0; index < evenPositionedChars; index++) {
-    if (index % 2 == 0) {
-        var charAt = givenString.charAt(index);
-        console.log(charAt);
 
+
+function evenPositionedChars(myString){
+
+    for (let index = 0; index < myString.length; index++) {
+       // console.log(index%2==0);
+       var chh = myString.charAt(index);
+       if (index%2==0 && chh!=" ") {
+          console.log(chh);
+       }
+       //var chh = myString.charAt(index);
+        
     }
 }
-console.log("---------------------------------------------");
-var givenString1 = "Soon I will be Angular IT Champ";
-var evenPositionedChars = givenString1.length;
-for (let index = 0; index < givenString1.length; index++) {
-    if (index % 2 == 0) {
-        var charAt = givenString1.charAt(index);
-        console.log(charAt);
-    }
+evenPositionedChars("Hard work always pays back");
+
+// var givenString = "Hard work always pays back";
+// var evenPositionedChars = givenString.length;
+// for (let index = 0; index < evenPositionedChars; index++) {
+//     if (index % 2 == 0) {
+//         var charAt = givenString.charAt(index);
+//         console.log(charAt);
+
+//     }
+// }
+// console.log("---------------------------------------------");
+// var givenString1 = "Soon I will be Angular IT Champ";
+// var evenPositionedChars = givenString1.length;
+// for (let index = 0; index < givenString1.length; index++) {
+//     if (index % 2 == 0) {
+//         var charAt = givenString1.charAt(index);
+//         console.log(charAt);
+//     }
 
 
-}
+// }
+// function evenPositionChar(myString) {
+    
+// }
 
-console.log("-----------------------*Q.5.2- odd-str2*---------------------------");
+console.log("-----------------------*Q.5.1- odd-str2*---------------------------");
 var String = "Hard work always pays back";
 var OddPositionedChars = String.length;
 for (let index = 0; index < String.length; index++) {
-    if (index % 2 !== 0) {
+    if (index % 2 !== 0 && charAt!=" ") {
         var charAt = String.charAt(index);
-    } else {
-        console.log(charAt);
+        console.log(charAt);  
     }
 }
 
 
-console.log("-----------------------*Q.5- Odd*---------------------------");
+console.log("-----------------------*Q.5-2 Odd*---------------------------");
 var givenString = "Soon I will be Angular IT Champ";
 var OddPositionedChars = givenString.length;
 for (let index = 0; index < givenString.length; index++) {
     if (index % 2 !== 0) {
-        var charAt = givenString.charAt(index)
-    } else {
+        var charAt = givenString.charAt(index);
         console.log(charAt);
     }
-
+     
 }
 
 
 
-console.log("======================================Assignment 2===================================================");
-var String = "Hard work always pays back";
-var length = String.length;
-for (let index =length; index => 0; index--) {
-    console.log(String.charAt(index));
-    String.charAt(index)
+// console.log("======================================Assignment 2===================================================");
+// var String = "Hard work always pays back";
+// var length = String.length;
+// for (let index =length; index => 0; index--) {
+//     console.log(String.charAt(index));
+//     String.charAt(index)
     
-}
+// }
+
+
+
+
+
 
 

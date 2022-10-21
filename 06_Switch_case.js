@@ -1,23 +1,23 @@
-var dayNumber = 5;
+var dayNumber = 1;
 switch (dayNumber) {
     case 1:
         console.log("Monday");
-        break;
+        // break;
     case 2:
         console.log("Tuesday");
-        break;
+        // break;
     case 3:
         console.log("Wednesday");
-        break;
+        // break;
     case 4:
         console.log("Thursday");
-        break;
+        // break;
     case 5:
         console.log("Friday");
         break;
     case 6:
         console.log("Saturday");
-        break;
+        // break;
     case 7:
         console.log("Sunday");
         break;
