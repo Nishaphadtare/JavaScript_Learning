@@ -40,7 +40,7 @@ console.log(Teacher);
 
 console.log("-------------------------------------------------------------------------");
 console.log(`Q.1.Think of all properties that you could add`);
-console.table(teacher);
+console.log(teacher);
 console.log("1.name of teacher:-");
 console.log(teacher.nameOfTeacher);
 console.log("------------------------------------------------------------------------");

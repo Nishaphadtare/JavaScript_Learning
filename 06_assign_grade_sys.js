@@ -14,31 +14,31 @@ function gradeSystem(score) {
     }
     else if (score>=35 && score<60 ) {
         grade = 'C';
-        console.log(`score is: ${"fifty Five"} You are passed`);
+        console.log(` typeof rescore is: ${"fifty Five"} You are passed`);
     }
     else if (score>=60 && square<=75) {
         grade = 'B';
-        console.log(`score is: ${35} You are passed`);   
+        console.log(`typeof score is: ${35} You are passed`);   
     }
     else if (score>=75 && score<=90) {
         grade = 'A';
-        console.log(`score is: ${75} You are Passed`);
+        console.log(` typeof object in Angular score is: ${75} You are Passed`);
     }
     else if (score >=90 && score<=100) {
         grade = 'A+';
-        console.log(`score is: ${null} You are passed`);    
+        console.log(` typeof score is: ${null} You are passed`);    
     }
-    else if (score -ve && score>100) {
+    else if (typeof score  && score>100) {
         grade ='undefined';
-        console.log(`score is: ${"undefined"}`);   
+        console.log(`typeof score is: ${"undefined"}`);   
     }
-    else if ("Fourty Five score") {
+    else if (`typeof "Fourty Five score"`) {
         grade ='-20';
-        console.log(`score is: ${-20}`);
+        console.log(`typeof score is: ${-20}`);
     }
     else if (undefined && null) {
         grade = null && undefined;
-        console.log(`score is:${55}`);
+        console.log(`typeof score is:${55}`);
     }
 }
 console.log(gradeSystem());
