@@ -1,8 +1,8 @@
 let person = {
-let name: "Mohit",
+ name: "Mohit",
 age: 31,
 city: "pune"
 }
 
 let student = person;
-student.city = "mumbai";
+student.city = "mumbai"

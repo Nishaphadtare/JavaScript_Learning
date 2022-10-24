@@ -18,6 +18,7 @@ arrayOfNumbers.pop();
 
 console.log(arrayOfNumbers);
  var arrayLength = arrayOfNumbers.length;
+ console.log("--------------------------------------------------------------------------------------");
 
 console.log(`Total number elements available in array: ${arrayLength}`);
 
