@@ -36,3 +36,5 @@ let sliceElements = arrayOfNumber.slice[2];
 console.log(sliceElements);
 let sliceElement = arrayOfNumber.slice[1, 4];
 console.log(sliceElement);
+
+e.log("=================array resize============");

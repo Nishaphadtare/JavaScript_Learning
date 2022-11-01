@@ -34,3 +34,5 @@ for (const person of array) {
         console.log(`${person.fullName}  ${person.city}, ${person.age}, ${person.gender}`);
     }
 }
+
+consol

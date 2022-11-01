@@ -9,9 +9,9 @@ let person ={
 }
 console.log(person.name, person.age, person.city);
 console.log(person);
-// let student = {...person};
+let student = {...person};
 // console.log(...person);
-let student = JSON.parse(JSON.stringify(person));
+// let student = JSON.parse(JSON.stringify(person));
 
 student.city = "mumbai";
 person.age = 33;

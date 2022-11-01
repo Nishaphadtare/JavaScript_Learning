@@ -21,7 +21,7 @@ console.log(object3);
 console.log(object4);
 console.log(object5);
 
-console.warn("-------------------------------------------------------------------------------------------");
+console.warn("------------------------------------------------------------------------------------------------------------------");
 class college {
     constructor (Name, Location, State, Fees){
         this.Name = Name;
@@ -33,7 +33,7 @@ class college {
         console.log(`Details of college: ${Name}, ${Location}, ${State}, ${Fees}`);
     }
 }
-console.log("---------------------------------------------------------------------------------");
+// console.log("---------------------------------------------------------------------------------");
 const obj1 = new college("Bhartiya Vidyapeeth", "pune", "Maharashtra",150000);
 let obj2 = new college("Ahilyadevi Holkar", "Solspur", "India",100000);
 let obj3 = new college("Yele University", "Chandrapur", "US",15296);
