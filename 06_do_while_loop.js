@@ -1,5 +1,5 @@
 //wap to print number from 0 to 5
-var couunt = 0; //initilization
+var count= 0; //initilization
 do {
     console.log(count);
     count++;   //update
@@ -13,3 +13,17 @@ do{
     console.log(count);
     count--;
 }while (count>=70);
+console.log("======================================================================");
+
+var count =1;
+do {
+    console.log(count);
+    count++;
+} while (count<10);
+
+console.log("======================================================================");
+// var count = 100;
+// do {
+//     console.log(count);
+//     count -- ;
+// } while (count>=90);
