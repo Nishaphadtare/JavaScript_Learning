@@ -17,14 +17,14 @@ array_numbers.forEach((currentValue) => {
    }
 });
 
-console.log("------------3. Display Even Numbers from the given array---------");
+console.log("------------4. Display Even Numbers from the given array---------");
 array_numbers.forEach((currentValue) => {
    if (currentValue%2==0) {
       console.log(currentValue);
    }
 });
 
-console.log("------------3. Display Odd Numbers from the given array---------");
+console.log("------------5. Display Odd Numbers from the given array---------");
 array_numbers.forEach((currentValue) => {
    if (currentValue%2!==0) {
       console.log(currentValue);

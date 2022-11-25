@@ -55,12 +55,12 @@ var array1=array_emps.filter((person)=>{
 });
 
 console.log("5.--------------------------------------- Find the average salary of the employee for all the department-------------------------------------------");
-var array1=array_emps.filter((value)=>{
+var array1 = array_emps.filter((value)=>{
     return value.emp_dept;
 
 });
 //console.log(array1);
-var array2=[];
+var array2 = [];
 array1.forEach((value1)=>{
     
     array2.push(value1.emp_salary);
@@ -68,16 +68,17 @@ array1.forEach((value1)=>{
 });
 //console.log(array2);
 
-var array3=array2.reduce((a,b)=>{
+var array3 = array2.reduce((a,b)=>{
     return a+b;
 
 });
 
-let avg=array3/array1.length
-console.log(`Average salary of all departments:${avg}`);
+let avg = array3 / array1.length
+console.log(`Average salary of all departments: ${avg}`);
+
 console.log("6.------------------------------------------- Find the average salary for 'IT' department-------------------------------------------");
 var array1=array_emps.filter((value)=>{
-    return value.emp_dept==='IT';
+    return value.emp_dept === 'IT';
 
 });
 //console.log(array1);
@@ -89,8 +90,8 @@ array1.forEach((value1)=>{
 });
 //console.log(array2);
 
-var array3=array2.reduce((a,b)=>{
+var array3 = array2.reduce((a,b)=>{
     return a+b;
 
 });
-console.log(`Average salary of 'IT' departments:${array3/array1.length}`);
+console.log(`Average salary of 'IT' departments: ${array3 /array1.length}`);

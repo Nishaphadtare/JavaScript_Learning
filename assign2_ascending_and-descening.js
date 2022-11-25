@@ -14,20 +14,20 @@ const emp_sonali=new Employee(66,"Sonali","Finance",45000,"Infy");
 const emp_monika=new Employee(77,"Monika","IT",40000,"Wipro");
 const emp_viny=new Employee(88,"Vinayak","IT",75000,"TCS");
 const emp_mahi=new Employee(99,"Mahesh","HR",85000,"Infy");
-array=[emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny,emp_mahi];
+array=[emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_viny, emp_mahi];
 
 
 
 console.log("1.-------------------------- Sort the 'array_employees' in ascending order of Employee Id's and log employee details → Id, Name, Department--------------------------");
-var array1=array.sort((a,b)=>{
+var array1 =array.sort((a,b)=>{
     return a.emp_id - b.emp_id
 
 });
 array1.forEach((value)=>{
-    console.log(`Emp_id :${value.emp_id}, Employee Name: ${value.emp_name} Employee Dept: ${value.emp_dept}`);
+    console.log(`Emp_id : ${value.emp_id}, Employee Name: ${value.emp_name} Employee Dept: ${value.emp_dept}`);
 
 })
-console.log("2.-------------------------- Sort the ‘array_employees’ in ascending order of employee department & log Id, dept, & Company--------------------------");
+console.log("2.-------------------------- Sort the 'array_employees' in ascending order of employee department & log Id, dept, & Company--------------------------");
 var array1=array.sort((a,b)=>{
     let fa=a.emp_dept;
     let fb=b.emp_dept;
