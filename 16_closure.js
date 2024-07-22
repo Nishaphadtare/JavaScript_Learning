@@ -12,3 +12,14 @@ returnValue();
 
 
 
+// var globalVariable = 500;
+// function outer(){
+//     let outerFun = 200;
+//     let innerFun = function(){
+//         let innerFun = 300;
+//         console.log(innerFun, outerFun, globalVariable);
+//     }
+//     return innerFun;
+// }
+// let returnFunVal = outer();
+// returnFunVal()

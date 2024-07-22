@@ -11,7 +11,7 @@ console.log(fruits_seasonal);
 
 console.log("----------------------------------------------------------------------------------------------------");
 console.log("3.Remove `Mango` from the array");
-let spliceElements = fruits_seasonal.slice(0, 4);
+let sliceElements = fruits_seasonal.slice(0, 4);
 console.log(fruits_seasonal.slice(0, 4));
 
 console.log("----------------------------------------------------------------------------------------------------");

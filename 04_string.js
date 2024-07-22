@@ -1,13 +1,13 @@
 var greet = "Good Morning"
 var count = greet.length;
-console.log(count);
 
+console.log(count);
 console.log(greet);
 
 var Nisha = greet.charAt(8)
-console.log()
+console.log(Nisha)
 
-greet.indexOf()
+greet.indexOf(Nisha)
 
 console.log("=======================================");
 

@@ -1,5 +1,5 @@
 var greater_number = function(num1, num2){
-    var result = num1>num2 ? num1: num2;
+    var result = num1 > num2 ? num1: num2;
     console.log(result);
 }
 greater_number(10, -10);

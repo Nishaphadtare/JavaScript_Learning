@@ -1,6 +1,6 @@
 
 console.log(`Q.1. wap to print numbers from 5 to 15 by incrementing 1`);
-var number =5;
+var number = 5;
 do {
     console.log(number);
     number ++;
@@ -8,7 +8,7 @@ do {
 
 console.log(`....................................................................................................`);
 console.log(`Q.1. wap to print numbers from 50 to 40 by decrementing 1`);
-var number =50;
+var number = 50;
 do {
     console.log(number);
     number--;

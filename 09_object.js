@@ -23,6 +23,8 @@ let person = {
 }
 
 
+
+
 // console.log([person].entities(person));
 console.log([person].keys(person));
 console.log([person].values(person));

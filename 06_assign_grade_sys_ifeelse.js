@@ -2,7 +2,7 @@ function gradeSystem(score) {
     var grade;
     if ( score<70) {
     grade = 'B'
-    console.log('score is: ${66} And Grade is "B"');
+    console.log(`score is: ${66} && Grade is "B"`);
     console.log("----------------------------------------------------------------------------------------");
 
     }

@@ -15,3 +15,20 @@ promise.then(function(success){
     console.log("Done....");
 });
 
+// let isNotesAvailable = true;
+// let promises = new Promise(function(resolve, reject){
+//     if (isNotesAvailable) {
+//         resolve('yes she has notes');
+//     }else {
+//         reject('she does not have notes');
+//     }
+// });
+
+// promises.then(function(successful){
+//     console.log(successful);
+// }). catch(function(failure){
+//     console.log(failure);
+// }).finally(function(){
+//     console.log('done');
+// })
+    

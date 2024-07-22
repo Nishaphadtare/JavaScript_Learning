@@ -48,10 +48,14 @@ console.log("num2 < num3 ====>",  num2 < num3);
 console.log("num2 > num3 ====>",  num2 > num3);
 console.log("num2 >= num3 ====>",  num2 >= num3);
 
-var num2 =50;
-var num3 ="50";
+var num2 = 50;
+var num3 = "50";
 console.log(`*********** Operator ***********`);
 var result = num2 == num3;
 console.log("num2 == num3 =====>", result);
 
-
+var num2 = 50;
+var num3 = "50";
+console.log(`*********** Operator ***********`);
+var result1 = num2 === num3;
+console.log("num2 === num3 =====>", result1);

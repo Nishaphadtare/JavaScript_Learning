@@ -126,9 +126,9 @@ console.log("---------------------------- 3.---------------------------");
 var String = "JavaScript -ES6"
 var str = string.length;
 
-if (String.length>10) {
-console.log("more Than 10 character ");    
+if (string.length>=10) {
+console.log("more Than 10 character ", str);    
 }else{
-    console.log("not more than character ");
+    console.log("not more than character ", str);
 }
 

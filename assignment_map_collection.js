@@ -40,14 +40,14 @@ console.log(`Original array:${array_numbers}`);
 let newArrayAdd5=array_numbers.map((element,index)=>{
 return element+10;
 });
-console.log(`After adding 10 in Array:${newArrayAdd5}`);
+console.log(`After adding 10 in Array: ${newArrayAdd5}`);
 console.log("2.------------------------ Square the each array element and log on console1.------------------------ ");
-console.log(`Original array:${array_numbers}`);
+console.log(`Original array: ${array_numbers}`);
 
 let newSquare=array_numbers.map((element,index)=>{
 return element*element;
 });
-console.log(`Square of element is:${newSquare}`);
+console.log(`Square of element is: ${newSquare}`);
 console.log("3.------------------------ Add the index value into its corresponding each array element and log new array result on console1.------------------------ ");
 console.log(`Original array:${array_numbers}`);
 

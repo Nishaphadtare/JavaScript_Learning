@@ -35,4 +35,4 @@ for (const person of array) {
     }
 }
 
-consol
+

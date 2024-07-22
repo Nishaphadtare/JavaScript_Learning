@@ -23,4 +23,15 @@ num3 = temp;
 console.log("value After Swap :-");
 console.log(num1, num2, num3);
 
+var firstName = 'nisha';
+var secondName = 'Kakasaheb';
+var LastName = 'Phadtare';
+console.log('before swap');
+console.log(firstName, secondName, LastName );
 
+var temp = firstName;
+firstName = secondName;
+secondName = LastName;
+LastName = temp;
+console.log('After Name:-');
+console.log(firstName, secondName, LastName);

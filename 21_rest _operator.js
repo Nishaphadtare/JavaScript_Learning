@@ -3,8 +3,7 @@
 // console.log(myName);
 
 function display (myName, age){
-    con
-    sole.log(myName, age);
+    console.log(myName, age);
 }
 display("Anil", 24)
 console.log("---------------------");
@@ -18,8 +17,7 @@ console.log("---------------------");
 
 function divide(x, y){
     console.log(x/y);
-}
-divide(10, 5);
+}-
 
 function divide(x, y=1){
     console.log(x/y);
